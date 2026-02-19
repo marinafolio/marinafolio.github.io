@@ -1,0 +1,363 @@
+/* 1. Global Setup */
+@charset "UTF-8";
+
+:root {
+  --accent: rgb(141, 99, 165);
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+  --font-color: #4c4c4c;
+  --radius: 24px;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 6px 12px rgba(0, 0, 0, 0.08);
+  --surface: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 18px;
+  color: var(--font-color);
+  margin: 0;
+  /* Add padding to prevent content from being hidden by the fixed nav */
+  padding-top: 85px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* 2. Layout */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/* 3. Typography */
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+h1,
+#project-heading {
+  font-size: 45px;
+  font-weight: 550;
+  border-bottom: 8px solid rgb(230, 219, 69);
+  display: inline-block;
+  padding-bottom: 6px;
+  margin-bottom: 24px;
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+a {
+  text-underline-offset: 3px;
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 4. Components */
+
+/* Navigation */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #ffffff;
+  padding: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+nav .container {
+  padding: 0; /* Nav container should be edge-to-edge of main container */
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+}
+
+nav ul li {
+  margin: 0;
+  font-size: 16px;
+}
+
+nav ul li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  transition: opacity 180ms ease;
+}
+nav ul li a:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+/* Intro Section */
+#intro-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+  padding: 10px 0;
+}
+
+#intro-heading {
+  font-size: 45px;
+  font-weight: 550;
+}
+.accent {
+  color: var(--accent);
+}
+
+#intro-description {
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 500px;
+}
+
+#intro-image img {
+  border-radius: 50%;
+  max-width: 350px;
+  transform: scaleX(-1);
+}
+
+/* Portfolio Section */
+.portfolio {
+  background-color: rgb(236, 236, 236);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 20px;
+}
+
+.tile-link {
+  text-decoration: none;
+  color: var(--font-color);
+  display: block;
+  border-radius: var(--radius);
+}
+.tile-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 6px;
+}
+
+.tile {
+  position: relative;
+  height: 100%;
+  min-height: 280px;
+  border-radius: var(--radius);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: var(--surface);
+  box-shadow: var(--shadow-sm);
+  transition: transform 180ms ease, box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+.tile:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(0, 0, 0, 0.18);
+}
+
+.inner-tile {
+  padding: 32px;
+}
+
+.title-tile {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.tile p {
+  font-size: 18px;
+  line-height: 26px;
+}
+.title-description {
+  padding-top: 10px;
+}
+
+.title-cta {
+  font-weight: 600;
+}
+.title-cta p {
+  margin: 0;
+}
+
+.tile-tag {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  background: rgb(160, 122, 182);
+}
+/* Project Page */
+#project-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 0;
+  font-size: 20px;
+  line-height: 1.75;
+}
+
+#project-container p {
+  max-width: 70ch;
+}
+
+#project-container ul {
+  padding-left: 20px;
+}
+#project-container ul li {
+  padding-bottom: 12px;
+}
+
+#project-container img {
+  box-shadow: var(--shadow-md);
+  margin: 16px 0;
+}
+
+#project-container table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+#project-container th,
+#project-container td {
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  text-align: left;
+}
+#project-container thead {
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+#project-container figure {
+  margin: 16px 0;
+}
+#project-container figcaption {
+  font-size: 0.875em;
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.65);
+  font-style: italic;
+  display: block;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.section {
+  color: var(--accent);
+  border-bottom: 1px solid var(--accent);
+}
+
+/* 5. Media Queries */
+@media (max-width: 900px) {
+  #portfolio-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding-top: 78px;
+  }
+  nav ul {
+    justify-content: center;
+    gap: 16px;
+  }
+  #intro-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+  #intro-heading,
+  h1,
+  #project-heading {
+    font-size: 32px;
+  }
+  #intro-description {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  #intro-image img {
+    max-width: 220px;
+    margin: 12px auto 0;
+    transform: none;
+  }
+  .tile {
+    min-height: auto;
+  }
+  .inner-tile {
+    padding: 24px;
+  }
+  #project-container {
+    font-size: 19px;
+  }
+}
+
+/* 6. Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .tile:hover {
+    transform: none;
+  }
+}
