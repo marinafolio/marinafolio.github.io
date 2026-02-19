@@ -1,0 +1,29 @@
+---
+import { Image } from "astro:assets";
+import avatar from "../assets/images/avatar.png";
+---
+
+<div id="left-intro">
+  <div id="intro-heading">
+    Hi there. I'm <span class="accent">Marina</span>, <br />a
+    <span class="accent">UX Writer</span> at Turnitin.
+  </div>
+  <div id="intro-description">
+    <p>
+      I’m a UX writer and content designer with a strong technical background. I
+      specialize in crafting clear, scalable documentation and UX copy, while
+      also creating systems and processes that solve problems at scale.
+    </p>
+
+    <p>
+      My goal is always the same: make information usable, reduce friction, and
+      help people work smarter.
+    </p>
+  </div>
+</div>
+
+<div id="right-intro">
+  <div id="intro-image">
+    <Image src={avatar} alt="A graphic of Marina" />
+  </div>
+</div>
