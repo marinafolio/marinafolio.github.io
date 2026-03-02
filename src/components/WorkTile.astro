@@ -1,0 +1,41 @@
+---
+interface Props {
+  href: string;
+  title: string;
+  description: string;
+  tag?: string;
+  cta?: string;
+}
+
+const {
+  href,
+  title,
+  description,
+  tag,
+  cta = "View case study →",
+} = Astro.props;
+---
+
+<a class="tile-link" href={href}>
+  <div class="tile">
+    {
+      tag && (
+        <span class="tile-tag" aria-label="Category">
+          {tag}
+        </span>
+      )
+    }
+
+    <div class="inner-tile">
+      <div class="title-tile">{title}</div>
+
+      <div class="title-description">
+        <p>{description}</p>
+      </div>
+
+      <div class="title-cta">
+        <p>{cta}</p>
+      </div>
+    </div>
+  </div>
+</a>
