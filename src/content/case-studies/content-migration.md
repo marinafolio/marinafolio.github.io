@@ -15,23 +15,21 @@ I led a sitewide migration for a large, global edtech platform from a legacy hel
 
 - Launched the new guidance site on schedule, despite early concerns about scope and timing
 
-## Context
+## Overview
 
 Over time, the help content for a large, global edtech platform had grown bloated and inconsistent, with approximately 5,500 duplicative or overlapping guides spread across product areas. As the UX Writing team migrated from a legacy help system to Zendesk, we used the transition to improve information architecture, content quality, and long-term maintainability.
 
-## Problem
+## The challenge
 
 Severe duplication and overlapping content created noise for users and made the help site difficult to navigate and maintain. Internally, the lack of a shared audit framework or tracking system meant writers were making isolated decisions, increasing the risk of inconsistent guidance, rework across teams, and a delayed launch. Without structure, the migration threatened both content quality and confidence in the timeline.
 
-## Constraints and tradeoffs
-
 The migration required balancing speed and consistency under a fixed launch date, coordinating work across multiple product areas, and making consolidation decisions without complete usage data for every guide.
 
-## Approach and execution
+## My approach
 
 I focused on creating structure early, so decisions could scale, collaboration could stay aligned, and progress could be defended under timeline pressure.
 
-- **Designed and piloted an audit framework:** Started with LMS-based integrations to identify repetitive vs. unique workflows, allowing us to test consolidation criteria before scaling across product areas.
+- **I began by piloting an audit framework** within LMS-based integration guidance, mapping repetitive and unique workflows before scaling consolidation criteria across
 
 - **Built a scalable tracking system:** Created a spreadsheet to catalog approximately 300 guides across 8 product areas, capturing audience, screenshot status, QA needs, and rewrite scope. This ensured consistent decisions and served as the single source of truth for the migration.
 
@@ -41,7 +39,7 @@ I focused on creating structure early, so decisions could scale, collaboration c
 
 - **Used data to maintain momentum:** When the launch timeline was questioned, I used audit and tracking data to demonstrate progress, manage risk, and keep the project on track.
 
-## Results
+## Outcomes
 
 - **Operational clarity:** The tracking system became the team’s primary coordination tool, enabling consistent decision-making and faster progress across product areas.
 

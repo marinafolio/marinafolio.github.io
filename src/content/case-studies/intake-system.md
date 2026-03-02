@@ -15,19 +15,17 @@ I redesigned how the UX Writing team handled internal requests by creating a str
 
 - Increased Jira adoption through hands-on training, onboarding materials, and a 25-page Jira playbook
 
-## Context
+## Overview
 
 Requests for UX writing support arrived unpredictably through Slack, making work difficult to track and prioritize. Writers fielded ad-hoc pings, requesters lacked visibility into status, and ownership was often unclear. Although Jira existed as a system of record, it wasn’t consistently used by the team or understood by partners.
 
-## Problem
+## The challenge
 
 An unstructured request process forced writers to context-switch frequently and manually manage intake in Slack. Inconsistent Jira usage made prioritization uneven, reduced transparency for stakeholders, and limited the team’s ability to plan and protect time for higher-impact work.
 
-## Constraints and tradeoffs
-
 The solution needed to fit naturally into existing Slack behaviors while enforcing more structure, and it had to drive adoption without adding administrative overhead or requiring extensive tooling changes.
 
-## Approach and execution
+## My approach
 
 I focused on designing a lightweight system that reduced friction at intake while reinforcing shared standards and accountability.
 
@@ -41,7 +39,7 @@ I focused on designing a lightweight system that reduced friction at intake whil
 
 - **Iterated post-launch:** Monitored usage gaps, ran a follow-up workshop, partnered with DevOps to refine the bot, and explored Slack Canvas to provide richer context at intake.
 
-## Results
+## Outcomes
 
 - **Operational clarity:** Every request now has a visible owner and status in Jira, closing the loop from intake to resolution.
 
