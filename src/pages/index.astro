@@ -1,6 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Bio from "../components/Bio.astro";
+import WorkTile from "../components/WorkTile.astro";
+import { getCollection } from "astro:content";
+
+const caseStudies = await getCollection("case-studies");
 ---
 
 <Layout>
@@ -11,4 +15,21 @@ import Bio from "../components/Bio.astro";
       </div>
     </section>
   </div>
+  <section class="portfolio">
+    <div class="container">
+      <h2>Case Studies</h2>
+      <div id="portfolio-container">
+        {
+          caseStudies.map((study) => (
+            <WorkTile
+              href={`/case-studies/${study.slug}`}
+              title={study.data.title}
+              description={study.data.description}
+              tag={study.data.tags?.[0]}
+            />
+          ))
+        }
+      </div>
+    </div>
+  </section>
 </Layout>
