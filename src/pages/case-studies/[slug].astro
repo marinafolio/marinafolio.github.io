@@ -1,0 +1,42 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+export async function getStaticPaths() {
+  const caseStudies = await getCollection("case-studies");
+
+  return caseStudies.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+type Props = {
+  entry: CollectionEntry<"case-studies">;
+};
+
+const { entry } = Astro.props as Props;
+const { Content } = await entry.render();
+---
+
+<Layout>
+  <div class="container">
+    <div id="project-container">
+      <section>
+        <h1 id="project-heading">{entry.data.title}</h1>
+
+        {
+          entry.data.tags && entry.data.tags.length > 0 && (
+            <p class="focus">
+              <strong>Focus:</strong> {entry.data.tags.join(", ")}
+            </p>
+          )
+        }
+
+        {entry.data.description && <p class="lede">{entry.data.description}</p>}
+
+        <Content />
+      </section>
+    </div>
+  </div>
+</Layout>
