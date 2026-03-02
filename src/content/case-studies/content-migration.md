@@ -5,15 +5,15 @@ tags: ["content strategy", "information architecture", "systems design"]
 featured: true
 ---
 
-I led a sitewide migration for a large, global edtech platform from a legacy help system to Zendesk, using the transition to radically simplify help content. The project reduced nearly 6,000 English-language guides into a focused, searchable set that’s easier to maintain and easier for users to navigate.
+I led the strategic consolidation of a legacy help ecosystem during a platform migration, reducing nearly 6,000 English-language guides to 382 while designing the operational systems that made the transition sustainable.
 
 ## Impact
 
-- Reduced English-language guides from 5,928 to 382 (93.5% reduction)
+- Reduced English-language guides from 5,928 to 382 (93.5% reduction).
 
-- Sustained engagement of 150–200 daily upvotes with a 2.5:1 positive sentiment ratio
+- Sustained engagement of 150–200 daily upvotes with a 2.5:1 positive sentiment ratio.
 
-- Launched the new guidance site on schedule, despite early concerns about scope and timing
+- Launched the new guidance site on schedule, despite early concerns about scope and timing.
 
 ## Overview
 
@@ -27,28 +27,24 @@ The migration required balancing speed and consistency under a fixed launch date
 
 ## My approach
 
-I focused on creating structure early, so decisions could scale, collaboration could stay aligned, and progress could be defended under timeline pressure.
+I established a shared system early so consolidation decisions could scale across product areas and stay defensible under timeline pressure.
 
-- **I began by piloting an audit framework** within LMS-based integration guidance, mapping repetitive and unique workflows before scaling consolidation criteria across
+- I began by piloting an audit framework within LMS-based integration guidance, mapping repetitive and unique workflows before scaling consolidation criteria across product areas.
 
-- **Built a scalable tracking system:** Created a spreadsheet to catalog approximately 300 guides across 8 product areas, capturing audience, screenshot status, QA needs, and rewrite scope. This ensured consistent decisions and served as the single source of truth for the migration.
+- To keep decisions consistent, I built a tracking system that cataloged roughly 300 guides across 8 product areas - capturing audience, screenshot status, QA needs, and rewrite scope in a single source of truth.
 
-- **Enabled cross-team collaboration:** Rolled the system out to 6 UX writers, enabling asynchronous work, clarifying ownership, and provide real-time visibility into progress and blockers.
+- After validating the structure, I rolled it out to six UX writers, enabling asynchronous collaboration, clearer ownership, and real-time visibility into progress and blockers.
 
-- **Led meaningful consolidation:** Reorganized information architecture, eliminated redundancy, and rewrote guidance for clarity, prioritizing user comprehension and long-term maintainability over a lift-and-shift approach.
+- Rather than lift and shift content, I reworked the information architecture itself, consolidating overlapping guidance and rewriting for clarity and long-term maintainability.
 
-- **Used data to maintain momentum:** When the launch timeline was questioned, I used audit and tracking data to demonstrate progress, manage risk, and keep the project on track.
+- When the launch timeline came under scrutiny, I used audit and tracking data to show exactly where we stood, highlight remaining risk, and reinforce confidence in the plan.
 
 ## Outcomes
 
-- **Operational clarity:** The tracking system became the team’s primary coordination tool, enabling consistent decision-making and faster progress across product areas.
+- The tracking system quickly became the team’s single source of truth, giving writers shared visibility into ownership, scope, and progress while reducing back-and-forth across product areas.
 
-- **Cross-functional enablement:** A comprehensive old→new link map allowed the Customer Support team to update references and guide users smoothly through the transition without disruption.
+- To support a smooth transition, I created a comprehensive old → new link map so Customer Support could update references confidently and direct users without confusion.
 
-- **Improved content quality:** A leaner, more consistent help site improved findability and reduced long-term maintenance overhead.
+- With duplication removed and structure simplified, the help site became easier to navigate and significantly lighter to maintain.
 
-- **Increased organizational trust:** Transparent progress data addressed leadership concerns and strengthened confidence in both the timeline and the migration approach.
-
-**Reflection**
-
-In a future migration, I’d involve Customer Support earlier in the audit phase to reduce downstream updates and further streamline the transition.
+- Audit data provided clear risk visibility, strengthening leadership confidence in both the timeline and the consolidation strategy.
