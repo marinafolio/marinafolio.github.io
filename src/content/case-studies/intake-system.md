@@ -5,15 +5,15 @@ tags: ["content operations", "internal systems", "enablement"]
 featured: true
 ---
 
-I redesigned how the UX Writing team handled internal requests by creating a structured Slack-to-Jira intake workflow and the documentation and training needed to make it stick. The result was fewer ad-hoc interruptions, clearer ownership, and more time for focused, strategic work.
+I redesigned the UX Writing team’s intake process, introducing a structured Slack-to-Jira workflow supported by documentation and training. The system reduced reactive work and protected time for higher-impact initiatives.
 
 ## Impact
 
-- 86+ hours saved annually per writer by eliminating manual triage and follow-ups
+- 86+ hours saved annually per writer by eliminating manual triage and follow-ups.
 
-- Reduced Slack interruptions, enabling deeper focus on complex initiatives
+- Reduced Slack interruptions, enabling deeper focus on complex initiatives.
 
-- Increased Jira adoption through hands-on training, onboarding materials, and a 25-page Jira playbook
+- Increased Jira adoption through hands-on training, onboarding materials, and a 25-page Jira playbook.
 
 ## Overview
 
@@ -27,28 +27,24 @@ The solution needed to fit naturally into existing Slack behaviors while enforci
 
 ## My approach
 
-I focused on designing a lightweight system that reduced friction at intake while reinforcing shared standards and accountability.
+I set out to design a lightweight intake system that reduced Slack friction without adding administrative overhead. It needed to be something the team would actually use.
 
-- **Researched proven patterns:** Studied IT and DevOps intake workflows and partnered with a DevOps engineer to scope a Slack-to-Jira automation that aligned with existing tools.
+- I started by looking outside our team, studying IT and DevOps intake workflows and partnering with a DevOps engineer to scope a Slack-to-Jira automation that worked within our existing tools.
 
-- **Designed the intake flow:** Mocked and refined the Slack form and bot behavior, balancing clarity for requesters with the data writers needed to estimate and prioritize work.
+- From there, I mocked and refined the Slack form and bot behavior, balancing clarity for requesters with the structured information writers needed to size and prioritize work.
 
-- **Validated before launch:** QAed the workflow with senior writers to test edge cases and ensure the system supported real-world use.
+- Before launch, I tested the workflow with senior writers to pressure-test edge cases and make sure it held up in real scenarios, not just in theory.
 
-- **Drove adoption through enablement:** Facilitated a one-hour workshop on sizing and prioritization, authored a 25-page “Leveling Up Your Jira Skills” playbook, and created a concise onboarding guide for Support and Implementation teams.
+- Adoption was just as important as the build. I ran a hands-on workshop on sizing and prioritization, wrote a 25-page “Leveling Up Your Jira Skills” playbook, and created a streamlined onboarding guide for Support and Implementation teams.
 
-- **Iterated post-launch:** Monitored usage gaps, ran a follow-up workshop, partnered with DevOps to refine the bot, and explored Slack Canvas to provide richer context at intake.
+- After launch, I monitored usage patterns, gathered feedback, refined the bot with DevOps, and experimented with Slack Canvas to surface richer context at intake.
 
 ## Outcomes
 
-- **Operational clarity:** Every request now has a visible owner and status in Jira, closing the loop from intake to resolution.
+- Every request now enters Jira with a clear owner and visible status, replacing fragmented Slack threads with a transparent intake-to-resolution flow.
 
-- **Improved team focus:** Fewer Slack interruptions reduced context-switching and protected time for deep work.
+- Writers experience fewer ad-hoc interruptions, reducing context switching and protecting time for deeper, higher-impact work.
 
-- **Skill uplift:** Training and documentation increased confidence with Jira, leading to better estimation and prioritization.
+- Through training and documentation, the team grew more confident with Jira. The solution improved estimation accuracy and made prioritization conversations more grounded.
 
-- **Continuous improvement:** Regular feedback cycles informed bot refinements and clearer in-channel guidance.
-
-**Reflection**
-
-In a future iteration, I’d formalize success metrics earlier so adoption patterns and edge cases could be identified faster, allowing the system to evolve more proactively rather than reactively.
+- Ongoing feedback loops continue to shape the system, informing bot refinements and clearer in-channel guidance as needs evolve.
