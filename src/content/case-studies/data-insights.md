@@ -11,7 +11,7 @@ I designed a content system that transforms complex institutional data into clea
 
 - Created a scalable content pattern for insight cards, making it easier to expand across assignments, students, and classes without reworking structure.
 
-- Made insight workflows easier to use by aligning copy with how users actually approach the task: discovery → understanding → exploration.
+- Made insight workflows easier to use by aligning copy with how users actually approach the task, moving from discovery to understanding to exploration.
 
 - Reduced ambiguity by separating high-level signals from detailed data, helping users understand what they’re seeing without extra effort.
 
@@ -19,7 +19,7 @@ I designed a content system that transforms complex institutional data into clea
 
 ## Overview
 
-The feature introduced a new way of surfacing data insights to administrators, highlighting patterns such as high integrity scores across assignments or repeated high scores among students. These insights were not static—they served as entry points into a dynamic experience where users could adjust filters and explore variations of the data.
+The feature introduced a new way of surfacing data insights to administrators, highlighting patterns such as high integrity scores across assignments or repeated high scores among students. These insights were not static, they served as entry points into a dynamic experience where users could adjust filters and explore variations of the data.
 
 This required a content approach that could communicate value at a glance, encourage interaction, and transition seamlessly into a more detailed, flexible data view.
 
