@@ -1,5 +1,5 @@
 ---
-title: "Simplifying at Scale"
+title: "Simplifying a Help Center"
 description: "Reworking a 6,000-article help center into a clear, maintainable system"
 tags: ["documentation", "information architecture", "content simplification"]
 featured: true
