@@ -3,6 +3,7 @@ title: "Reducing Workflow Friction"
 description: "Building a Slack-to-Jira intake system that saved 86+ hours per writer annually"
 tags: ["documentation", "process simplification", "internal guidance"]
 featured: true
+order: 3
 ---
 
 I created a more structured intake process for UX writing requests, supported by clear documentation and lightweight tooling. This reduced interruptions and made work easier to track, prioritize, and complete.

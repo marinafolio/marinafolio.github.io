@@ -5,6 +5,16 @@ import WorkTile from "../components/WorkTile.astro";
 import { getCollection } from "astro:content";
 
 const caseStudies = await getCollection("case-studies");
+
+const sortedCaseStudies = caseStudies.sort(
+  (a, b) => (a.data.order ?? 999) - (b.data.order ?? 999)
+);
+
+const writingSamples = await getCollection("writing-samples");
+
+const sortedWritingSamples = writingSamples.sort(
+  (a, b) => (a.data.order ?? 999) - (b.data.order ?? 999)
+);
 ---
 
 <Layout>
@@ -18,17 +28,30 @@ const caseStudies = await getCollection("case-studies");
   <section class="portfolio">
     <div class="container">
       <h2>Case Studies</h2>
-      <div id="portfolio-container">
-        {
-          caseStudies.map((study) => (
-            <WorkTile
-              href={`/case-studies/${study.slug}`}
-              title={study.data.title}
-              description={study.data.description}
-              tag={study.data.tags?.[0]}
-            />
-          ))
-        }
+        <div class="portfolio-container">
+          {
+            sortedCaseStudies.map((study) => (
+              <WorkTile
+                href={`/case-studies/${study.slug}`}
+                title={study.data.title}
+                description={study.data.description}
+                tag={study.data.tags?.[0]}
+              />
+            ))
+          }
+        </div>
+      <h2>Writing Samples</h2>
+      <div class="portfolio-container">
+          {
+            sortedWritingSamples.map((sample) => (
+              <WorkTile
+                href={`/writing-samples/${sample.slug}`}
+                title={sample.data.title}
+                description={sample.data.description ?? ""}
+                tag={sample.data.tags?.[0] ?? ""}
+              />
+            ))
+          }
       </div>
     </div>
   </section>

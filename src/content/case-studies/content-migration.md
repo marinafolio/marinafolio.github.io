@@ -3,6 +3,7 @@ title: "Simplifying a Help Center"
 description: "Reworking a 6,000-article help center into a clear, maintainable system"
 tags: ["documentation", "information architecture", "content simplification"]
 featured: true
+order: 2
 ---
 
 I consolidated and restructured a large, legacy help center during a platform migration, reducing nearly 6,000 English-language guides to 382 while improving clarity, consistency, and long-term maintainability.

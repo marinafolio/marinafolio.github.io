@@ -6,9 +6,20 @@ const caseStudies = defineCollection({
     description: z.string(),
     tags: z.array(z.string()),
     featured: z.boolean().default(false),
+    order: z.number(),
+  })
+});
+
+const writingSamples = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional(),
+    tags: z.array(z.string()).optional(),
+    order: z.number(),
   })
 });
 
 export const collections = {
   'case-studies': caseStudies,
+  'writing-samples': writingSamples,
 };
