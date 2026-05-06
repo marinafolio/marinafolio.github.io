@@ -399,6 +399,7 @@ code.inline {
   padding: 2px 6px;
   border-radius: 4px;
   font-size: 13px;
+  white-space: nowrap;
 }
 
 .inline-image {
@@ -430,6 +431,24 @@ code.inline {
   line-height: 1.45;
   border-bottom: 1px solid rgba(0,0,0,0.12);
   padding-bottom: 0.3rem;
+}
+
+.callout {
+  background-color: #f6f3ef;
+  border-left: 4px solid #c7b1a1;
+  padding: 16px 18px;
+  margin: 24px 0;
+  border-radius: 8px;
+  color: #3d3733;
+  line-height: 1.6;
+}
+
+.callout p {
+  margin: 0;
+}
+
+.callout strong {
+  color: #7a5c4d;
 }
 
 @media (max-width: 900px) {
