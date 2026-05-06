@@ -37,8 +37,12 @@ body {
 }
 
 section {
-  padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.container h2 {
+  padding-top:22px;
+  padding-bottom:22px;
 }
 
 h1,
@@ -165,9 +169,12 @@ nav ul li a:hover {
 
 .portfolio {
   background-color: rgb(236, 236, 236);
-  padding-top: 50px;
   padding-bottom: 50px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.portfolio.sample {
+  background-color:rgb(219, 219, 219);
 }
 
 .portfolio-container {
