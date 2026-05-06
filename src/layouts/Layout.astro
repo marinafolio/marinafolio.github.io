@@ -10,12 +10,14 @@ import Navigation from "../components/Navigation.astro";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/styles/global.css" />
+    <link href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.css" rel="stylesheet" />
     <meta name="generator" content={Astro.generator} />
     <title>Astro Basics</title>
   </head>
   <body>
     <Navigation />
     <slot />
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
   </body>
 </html>
 
