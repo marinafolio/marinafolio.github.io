@@ -285,7 +285,7 @@ nav ul li a:hover {
 }
 
 #project-container img {
-  box-shadow: var(--shadow-md);
+  /* box-shadow: var(--shadow-md); */
   margin: 16px 0;
 }
 
@@ -320,34 +320,45 @@ nav ul li a:hover {
   text-align: center;
 }
 
-/* blockquotes being used for copy examples */
-
-#project-container blockquote {
-  border-left: none;
-  padding: 10px 0 6px 8px;
-  margin: 25px;
-  box-sizing: border-box;
-}
-
-#project-container blockquote strong {
-  display: block;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  opacity: 0.6;
-  margin-bottom: 0.2rem;
-}
-
-#project-container blockquote p {
-  margin: 0;
-  font-size: 1.05rem;
-  line-height: 1.45;
-  border-bottom: 1px solid rgba(0,0,0,0.12);
-  padding-bottom: 0.3rem;
-}
 .section {
   color: var(--accent);
   border-bottom: 1px solid var(--accent);
+}
+
+/* writing samples */
+
+.sample-intro {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.sample-title {
+  background-image:none;
+  margin-top:0 !Important;
+}
+
+.sample-image {
+  display:block;
+  max-width:700px;
+  border:1px solid gray;
+}
+
+p:has(.sample-image) {
+  margin: 30px 0;
+}
+
+hr {
+  border:none;
+  height:1px;
+  background-color:gray;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.inline-image {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 !Important;
 }
 
 @media (max-width: 900px) {
