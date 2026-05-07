@@ -1,5 +1,5 @@
 ---
-title: "Structuring Zendesk content"
+title: "Structuring Zendesk Content"
 description: "Internal documentation for using HTML-based components in Zendesk"
 tags: ["technical documentation", "systems thinking", "content structure"]
 featured: true

@@ -346,7 +346,6 @@ nav ul li a:hover {
 .sample a .tile {
   min-height:unset;
   box-shadow: none;
-  background-color:#fcfbfa;
 }
 
 .sample a .inner-tile {
