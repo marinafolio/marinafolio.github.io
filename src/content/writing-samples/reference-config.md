@@ -1,5 +1,5 @@
 ---
-title: "Documenting Software Configuration"
+title: "Configuration Reference Guide"
 description: "Reference documentation for configuring third-party software."
 tags: ["technical writing", "configuration documentation", "reference documentation"]
 featured: false
