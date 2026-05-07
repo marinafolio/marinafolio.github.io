@@ -1,6 +1,6 @@
 ---
-title: "Documenting Complex Workflows"
-description: "Created internal documentation to help non-technical writers use HTML-based components."
+title: "Explaining Scoring Configuration"
+description: "Documentation for configurable grading workflows and scoring behavior"
 tags: ["systems thinking", "configuration guidance", "documentation"]
 featured: true
 order: 3

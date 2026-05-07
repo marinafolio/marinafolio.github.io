@@ -1,6 +1,6 @@
 ---
-title: "Clarifying MFA Configuration Workflows"
-description: "Clarified MFA configuration workflows and risk communication for administrators."
+title: "Clarifying MFA Workflows"
+description: "Improving configuration language and risk communication for administrators"
 tags: ["ux writing", "workflow guidance", "risk communication"]
 featured: true
 order: 2

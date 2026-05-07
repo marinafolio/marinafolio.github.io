@@ -1,6 +1,6 @@
 ---
-title: "User-facing task documentation"
-description: "Created a student-facing guide to make feedback easier to understand"
+title: "User Task Documentation"
+description: "Student-facing guidance for understanding instructor feedback"
 tags: ["documentation", "user guidance", "content structure"]
 featured: true
 order: 1

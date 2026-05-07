@@ -1,6 +1,6 @@
 ---
-title: "Structured Zendesk content"
-description: "Created internal documentation to help non-technical writers use HTML-based components."
+title: "Structuring Zendesk content"
+description: "Internal documentation for using HTML-based components in Zendesk"
 tags: ["technical documentation", "systems thinking", "content structure"]
 featured: true
 order: 1
@@ -8,7 +8,7 @@ order: 1
 
 <div class="sample-intro">This guide was created as part of a broader internal documentation system designed to help non-technical writers use HTML-based components in Zendesk. I focused on translating technical structure into clear, step-by-step instructions so writers could format and manage content without prior coding experience.</div>
 
-<h1 class="sample-title">Creating tabbed content in ZenDesk</h1>
+<h1 class="sample-title">Creating tabbed content in Zendesk</h1>
 
 Tabs organize related content into clearly labeled sections, allowing users to switch between workflows or views without leaving the page.
 

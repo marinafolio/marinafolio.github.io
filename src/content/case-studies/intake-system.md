@@ -1,6 +1,6 @@
 ---
-title: "Reducing Workflow Friction"
-description: "Building a Slack-to-Jira intake system that saved 86+ hours per writer annually"
+title: "Building an Intake Workflow"
+description: "Designing an asynchronous intake workflow between Slack and Jira for content requests"
 tags: ["documentation", "process simplification", "internal guidance"]
 featured: true
 order: 3
