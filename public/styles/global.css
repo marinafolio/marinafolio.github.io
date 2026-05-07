@@ -333,6 +333,31 @@ nav ul li a:hover {
 
 /* writing samples */
 
+.sample-type {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #8b837c;
+  font-weight: 500;
+  margin-bottom: 14px;
+  padding-left:20px;
+  
+}
+.sample a .tile {
+  min-height:unset;
+  box-shadow: none;
+  background-color:#fcfbfa;
+}
+
+.sample a .inner-tile {
+  padding-left:20px;
+  padding-top:10px;
+}
+
+.sample a .title-tile {
+  font-size:20px;
+}
+
 .sample-intro {
   border:1px solid gray;
   padding:20px;

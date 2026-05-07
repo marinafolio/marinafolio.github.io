@@ -3,6 +3,7 @@ title: "Explaining Scoring Configuration"
 description: "Documentation for configurable grading workflows and scoring behavior"
 tags: ["systems thinking", "configuration guidance", "documentation"]
 featured: true
+type: system documentation
 order: 3
 ---
 

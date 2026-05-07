@@ -2,6 +2,7 @@
 title: "Configuration Reference Guide"
 description: "Reference documentation for configuring third-party software."
 tags: ["technical writing", "configuration documentation", "reference documentation"]
+type: reference documentation
 featured: false
 order: 4
 ---

@@ -4,6 +4,7 @@ interface Props {
   title: string;
   description: string;
   tag?: string;
+  type?: string;
   cta?: string;
 }
 
@@ -12,6 +13,7 @@ const {
   title,
   description,
   tag,
+  type,
   cta = "Explore case study →",
 } = Astro.props;
 ---
@@ -19,10 +21,8 @@ const {
 <a class="tile-link" href={href}>
   <div class="tile">
     {
-      tag && (
-       // <span class="tile-tag" aria-label="Category">
-          <!-- {tag} -->
-       // </span>
+      type && (
+        <span class="sample-type">{type}</span>
       )
     }
 

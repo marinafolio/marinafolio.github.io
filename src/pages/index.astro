@@ -40,11 +40,8 @@ const sortedWritingSamples = writingSamples.sort(
             ))
           }
         </div>
-      </section>
-        <section class="portfolio sample">
-          <div class="container">
       <h2>Writing Samples</h2>
-      <div class="portfolio-container">
+      <div class="portfolio-container sample">
           {
             sortedWritingSamples.map((sample) => (
               <WorkTile
@@ -52,12 +49,12 @@ const sortedWritingSamples = writingSamples.sort(
                 title={sample.data.title}
                 description={sample.data.description ?? ""}
                 tag={sample.data.tags?.[0] ?? ""}
-                cta="View sample →"
+                type={sample.data.type}
+                cta="Read writing sample →"
               />
             ))
           }
       </div>
     </div>
-  </div>
   </section>
 </Layout>

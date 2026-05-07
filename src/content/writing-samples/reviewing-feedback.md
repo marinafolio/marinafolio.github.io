@@ -3,6 +3,7 @@ title: "User Task Documentation"
 description: "Student-facing guidance for understanding instructor feedback"
 tags: ["documentation", "user guidance", "content structure"]
 featured: true
+type: user guidance
 order: 1
 ---
 

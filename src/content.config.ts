@@ -15,6 +15,7 @@ const writingSamples = defineCollection({
     title: z.string(),
     description: z.string().optional(),
     tags: z.array(z.string()).optional(),
+    type: z.string().optional(),
     order: z.number(),
   })
 });
