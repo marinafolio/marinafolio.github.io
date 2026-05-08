@@ -111,7 +111,7 @@ I intentionally designed the warning language to feel noticeable without appeari
 
 The final warning copy read:
 
-> Before enabling multi-factor authentication, confirm that users have valid email addresses and can access their email accounts. Users without email access may be unable to sign in.
+> Before enabling multi-factor authentication, confirm that users have valid email addresses and can access their email accounts. Users without email access will be unable to sign in.
 
 The warning was visually separated from standard helper text to reduce the likelihood of administrators skimming past it.
 
@@ -133,7 +133,7 @@ Earlier drafts included language asking administrators to confirm that users cou
 
 > All users will be required to enter a verification code in addition to their email and password when signing in.
 >
-> Users without valid email addresses or access to their email accounts may be unable to sign in.
+> Users without valid email addresses or access to their email accounts will be unable to sign in.
 
 #### CTAs
 
