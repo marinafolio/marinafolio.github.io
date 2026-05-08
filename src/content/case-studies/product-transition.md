@@ -6,7 +6,7 @@ featured: true
 order: 1
 ---
 
-I wrote a structured set of 22 guides to support the launch of a newly rebuilt product, helping existing users transition from a legacy experience to an updated system. The guides covered administrator, instructor, and student workflows, providing clear, step-by-step instructions for completing key tasks.
+I wrote 22 guides to support the launch of a newly rebuilt product, helping existing users transition from a legacy experience to an updated system. The guides covered administrator, instructor, and student workflows, providing clear, step-by-step instructions for completing key tasks.
 
 ## Impact
 
@@ -17,12 +17,6 @@ I wrote a structured set of 22 guides to support the launch of a newly rebuilt p
 - Improved clarity and consistency across guides through a repeatable structure and standardized approach to instructions and screenshots.
 
 - Identified and reported product issues while documenting workflows, improving accuracy and reliability of the final guidance.
-
-## Overview
-
-A newly rebuilt version of an existing product required updated documentation to support current users transitioning from the legacy experience. While the product introduced improvements, it also changed key workflows, creating a gap between how users were accustomed to completing tasks and how those tasks now functioned.
-
-To support adoption, users needed clear, role-specific guidance that reflected the updated system and helped them complete common tasks with confidence.
 
 ## The challenge
 
@@ -42,17 +36,13 @@ The documentation needed to:
 
 I approached the documentation by establishing a clear, repeatable structure that could scale across guides while remaining easy for users to follow.
 
-- I began by working through the product directly, completing key workflows for each user role to understand how tasks were performed in the new system and where guidance would be needed.
+To understand where guidance was needed, I worked directly in the product and completed key workflows for each user role. This helped identify differences between administrator, instructor, and student experiences, as well as areas where users might encounter confusion during the transition.
 
-- Based on this, I defined a consistent structure for each guide, including task-based headings, step-by-step instructions, and supporting context where necessary.
+I created a consistent framework for each guide using task-based headings, step-by-step instructions, and supporting context where necessary. Content was organized by user role so that users could quickly locate guidance relevant to their responsibilities without unnecessary overlap.
 
-- I organized content by user role, ensuring that administrators, instructors, and students could quickly find guidance relevant to their responsibilities without unnecessary overlap.
+As I documented workflows, I validated instructions against real product behavior to identify gaps, inconsistencies, and edge cases requiring clarification. I also used screenshots selectively to support more complex steps, ensuring visuals added clarity without overwhelming the content.
 
-- As I documented workflows, I validated instructions against real product behavior, identifying gaps, inconsistencies, and edge cases that required clarification.
-
-- I used screenshots selectively to support more complex steps, ensuring visuals added clarity without overwhelming the content.
-
-- I maintained consistency across all guides by applying the same patterns for structure, terminology, and formatting, making the documentation easier to scan and navigate.
+To maintain consistency across all 22 guides, I applied the same patterns for structure, terminology, formatting, and instructional language throughout the documentation set.
 
 ## Outcomes
 
