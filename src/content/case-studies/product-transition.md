@@ -32,13 +32,26 @@ The documentation needed to:
 
 - Accurately reflect real product behavior, including edge cases and variations in user flows  
 
+
 ## My approach
 
 I approached the documentation by establishing a clear, repeatable structure that could scale across guides while remaining easy for users to follow.
 
 To understand where guidance was needed, I worked directly in the product and completed key workflows for each user role. This helped identify differences between administrator, instructor, and student experiences, as well as areas where users might encounter confusion during the transition.
 
-I created a consistent framework for each guide using task-based headings, step-by-step instructions, and supporting context where necessary. Content was organized by user role so that users could quickly locate guidance relevant to their responsibilities without unnecessary overlap.
+I created a consistent framework for each guide using task-based headings, step-by-step instructions, and supporting context where necessary. 
+
+To manage the documentation set at scale, I organized guides by user role and tracked content through drafting, staging, and publication workflows to maintain consistency across all 22 guides.
+
+<img 
+  src="/images/writing-samples/pt-01.png" 
+  alt="Document used to track role-based documentation guides through drafting, staging, and publication workflows, organized by administrator, instructor, and student content categories." 
+  class="sample-image" 
+/>
+
+<figcaption>
+  Role-based documentation tracking used to manage guides through drafting, staging, and publication workflows before publishing in the CMS.
+</figcaption>
 
 As I documented workflows, I validated instructions against real product behavior to identify gaps, inconsistencies, and edge cases requiring clarification. I also used screenshots selectively to support more complex steps, ensuring visuals added clarity without overwhelming the content.
 
