@@ -558,6 +558,9 @@ code.inline {
   #project-container {
     font-size: 19px;
   }
+  #project-container img {
+    max-width:100%;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
