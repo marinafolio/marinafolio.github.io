@@ -33,13 +33,17 @@ I consolidated and restructured a large legacy help center during a platform mig
 
 ## Overview
 
-Over time, the help content for a large, global edtech platform had grown bloated and inconsistent, with approximately 5,500 duplicative or overlapping guides spread across product areas. As the UX Writing team migrated from a legacy help system to Zendesk, we used the transition to simplify the structure, improve content quality, and make the help center easier to maintain.
+As part of a larger migration from a legacy help system to Zendesk, I led the planning and consolidation work for a large-scale help center restructuring initiative.
+
+Over time, the documentation for a global edtech platform had grown bloated and inconsistent, with thousands of duplicative or overlapping guides spread across product areas. Rather than migrate content as-is, I developed a structured approach to auditing, consolidating, and reorganizing the help center to improve usability, consistency, and long-term maintainability.
 
 ## The challenge
 
-The help center for a large global edtech platform had grown difficult to maintain, with thousands of duplicative or overlapping guides spread across product areas. Internally, the lack of a shared audit framework or tracking system meant writers were making isolated decisions, increasing the risk of inconsistent guidance, rework across teams, and a delayed launch. Without structure, the migration threatened both content quality and confidence in the timeline.
+The migration required consolidating thousands of guides while maintaining consistency across product areas and meeting a fixed launch timeline.
 
-The migration required balancing speed and consistency under a fixed launch date and making consolidation decisions without complete usage data for every guide.
+Internally, the lack of a shared audit framework or tracking system meant writers were making isolated decisions, increasing the risk of inconsistent guidance, duplicated work, and delayed progress.
+
+The work also required making consolidation decisions without complete usage data for every guide, balancing speed, usability, and long-term maintainability throughout the migration process.
 
 ## My approach
 
