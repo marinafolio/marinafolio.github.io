@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import marina from "../assets/images/marina.png";
+---
+
+<Layout>
+  <div id="project-container">
+    <section class="about">
+      <h1>About</h1>
+
+      <Image
+        src={marina}
+        alt="Portrait of Marina"
+        class="about-photo"
+      />
+
+        <p>My work began in public libraries, where I supported public computers, documented troubleshooting processes, maintained knowledge bases, and helped people navigate systems that often felt confusing or inaccessible. Working in libraries taught me how closely technology and communication are connected, especially for people who may not feel comfortable around technical systems.</p>
+
+        <p>Even outside of work, I'm the person family, friends, and coworkers come to when something on their computer stops working. Technology, troubleshooting, and helping people work through technical problems have been recurring themes throughout both my personal and professional life. I’ve also written beginner-friendly guides for HTML, CSS, and JavaScript, and some of the most meaningful feedback I’ve received has come from people who found them approachable while learning something new.</p>
+
+        <p>I like getting to know systems closely — not only how they’re supposed to work, but how people actually experience them day to day. Much of the work I find most meaningful comes from noticing gaps in information or process, then creating solutions that help more than just one person at a time.</p>
+
+        <p>Some of the work I’m most proud of has been the quieter, behind-the-scenes work: documentation, support resources, internal systems, and the kinds of tools people rely on every day without necessarily noticing. I enjoy organizing messy information, creating consistency across content, and making complex systems easier to understand and maintain over time.</p>
+
+        <p>Longform writing and documentation work are where I feel most at home. I enjoy the kind of work that requires careful thinking, sustained attention, and a systems-based mindset. I’m especially drawn to projects that value thoughtful process, clear communication, and creating resources that continue helping people long after they’re published.</p>
+
+        <p>Outside of work, I enjoy reading, learning new tools and systems, and exploring the ways people interact with information and technology. </p>
+    </section>
+  </div>
+</Layout>
