@@ -357,9 +357,10 @@ nav ul li a:hover {
   font-size:20px;
 }
 
-.sample-intro {
-  border:1px solid gray;
-  padding:20px;
+.sample-note {
+  border-left: 4px solid #d8c36a;
+  padding-left: 24px;
+  margin: 40px 0 60px;
 }
 
 .sample-title {
@@ -382,16 +383,23 @@ nav ul li a:hover {
   border:1px solid gray;
 }
 
+.callout {
+  margin: 2.5rem 0;
+  padding: 1.25rem 1.5rem;
+  border-left: 4px solid #7cb2d4;
+  background: #f2f7f7;
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
 p:has(.sample-image):not(:has(+ figcaption)) {
   margin: 30px 0;
 }
 
 hr {
-  border:none;
-  height:1px;
-  background-color:gray;
-  margin-top:30px;
-  margin-bottom:30px;
+  border: 0;
+  border-top: 1px solid #d9d9d9;
+  margin: 64px 0;
 }
 
 /* code blocks */
@@ -455,24 +463,6 @@ code.inline {
   line-height: 1.45;
   border-bottom: 1px solid rgba(0,0,0,0.12);
   padding-bottom: 0.3rem;
-}
-
-.callout {
-  background-color: #f6f3ef;
-  border-left: 4px solid #c7b1a1;
-  padding: 16px 18px;
-  margin: 24px 0;
-  border-radius: 8px;
-  color: #3d3733;
-  line-height: 1.6;
-}
-
-.callout p {
-  margin: 0;
-}
-
-.callout strong {
-  color: #7a5c4d;
 }
 
 @media (max-width: 900px) {
