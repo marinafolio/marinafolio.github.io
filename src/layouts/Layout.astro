@@ -1,5 +1,7 @@
 ---
 import Navigation from "../components/Navigation.astro";
+
+const title = Astro.props.title;
 ---
 
 <!doctype html>
@@ -12,7 +14,7 @@ import Navigation from "../components/Navigation.astro";
     <link rel="stylesheet" href="/styles/global.css" />
     <link href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.css" rel="stylesheet" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro Basics</title>
+    <title>{title}</title>
   </head>
   <body>
     <Navigation />

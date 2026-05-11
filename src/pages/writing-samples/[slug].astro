@@ -19,7 +19,7 @@ const { entry } = Astro.props as Props;
 const { Content } = await entry.render();
 ---
 
-<Layout>
+<Layout title={entry.data.title}>
   <div class="container">
     <div id="project-container">
       <section>
@@ -32,6 +32,10 @@ const { Content } = await entry.render();
             </p>
           )
         }
+
+        {entry.data.description && (
+          <p class="lede">{entry.data.description}</p>
+        )}
 
         <Content />
       </section>
