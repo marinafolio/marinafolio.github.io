@@ -3,7 +3,7 @@ title: "Documenting a Product Transition"
 description: "Writing structured, role-based guides to help users adopt a newly rebuilt product"
 tags: ["documentation", "user guidance", "content structure"]
 featured: true
-order: 1
+order: 2
 ---
 
 I wrote 22 guides to support the launch of a newly rebuilt product, helping existing users transition from a legacy experience to an updated system. The guides covered administrator, instructor, and student workflows, providing clear, step-by-step instructions for completing key tasks.

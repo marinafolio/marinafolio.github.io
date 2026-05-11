@@ -3,7 +3,7 @@ title: "Building an Intake Workflow"
 description: "Designing an asynchronous intake workflow between Slack and Jira for content requests"
 tags: ["documentation", "process simplification", "internal guidance"]
 featured: true
-order: 3
+order: 4
 ---
 
 I created a structured intake workflow for UX writing requests using Slack, Jira, and supporting documentation. The process reduced interruptions, improved request visibility, and made work easier to track, prioritize, and complete.
