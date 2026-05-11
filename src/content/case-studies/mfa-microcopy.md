@@ -6,6 +6,17 @@ featured: true
 order: 2
 ---
 
+## At a glance
+
+| Category | Details |
+|---|---|
+| **Project** | Multi-factor authentication administration workflow |
+| **Role** | UX Writer |
+| **Focus** | Configuration language, workflow guidance, risk communication |
+| **Users** | Institutional administrators |
+| **Problem** | Administrators could unintentionally lock users out through unclear MFA configuration options |
+| **Outcome** | Improved terminology, clarified scope, and introduced layered risk communication for high-impact actions |
+
 ## Overview
 
 This project focused on UX writing for a multi-factor authentication (MFA) configuration workflow within an administrative management experience.
@@ -16,9 +27,9 @@ While MFA improves account security, the feature also introduced operational ris
 
 If MFA was enabled for users with missing or outdated email access, those users could become locked out of their accounts until the setting was reverted. This risked creating a large volume of support requests for both administrators and customer support teams.
 
-The challenge was not just explaining how MFA works, but helping administrators understand the consequences of enabling it at scale. The workflow needed to help administrators understand the consequences of enabling MFA at scale without overwhelming them with technical, punitive, or alarmist language.
+The challenge was not just explaining how MFA worked, but helping administrators understand the operational consequences of enabling it at scale.Because enabling MFA could unintentionally lock users out of their accounts, the workflow needed to support deliberate decision-making without relying on alarmist or overly technical language.
 
-My work focused on:
+Key writing goals:
 
 - simplifying configuration language,
 - improving how options could be compared and scanned,
@@ -28,36 +39,34 @@ My work focused on:
 
 ## The problem
 
-The original experience presented two major usability issues.
+The original experience presented two major usability risks:
 
 ### Ambiguous configuration language
 
-The configuration options included enabling MFA for specific groups of users as well as disabling MFA entirely. This made the choices feel inconsistent and harder to compare quickly.
+Administrators could apply MFA requirements without fully understanding who would be affected.
 
-Early language explorations included options such as:
+Original option labels included:
 
 - Disable MFA
 - No access
 - None
 - MFA disabled
 
-These options introduced several problems, including inconsistent structure, ambiguous meaning, and overly negative or technical language.
+The language lacked clear behavioral meaning and created uncertainty around scope and outcomes.
 
-### High-risk action with limited warning
+### High-risk actions with limited warning
 
-Enabling MFA broadly could unintentionally prevent users from signing in if:
+Enabling MFA could unintentionally prevent users from signing in if:
 
-- email addresses were invalid,
+- email addresses were not valid,
 - users no longer had access to their email accounts,
-- or institutional account data was outdated.
+- or institutional records were outdated.
 
-Although the interface explained what MFA was, it did not clearly communicate the impact of enabling it.
-
-This created risks such as:
+This created risks for:
 
 - user lockouts,
 - increased support burden,
-- and administrative frustration.
+- and avoidable administrative frustration.
 
 ## Reframing the configuration options
 
@@ -65,7 +74,7 @@ To improve readability and consistency, I reframed the entire radio group around
 
 > Require multi-factor authentication for
 
-The final options became:
+The final radio button labels became:
 
 - No users
 - Instructors
@@ -101,13 +110,15 @@ A major concern raised during the workflow review was the risk of widespread log
 
 I explored several approaches, including inline helper text, warning callouts, and confirmation-only patterns.
 
-I ultimately recommended a layered approach that combined an inline warning and a confirmation modal.
+Ultimately, I recommended a layered approach that combined an inline warning and a confirmation modal.
 
 This structure supported both passive awareness during configuration and active confirmation before changes were applied.
 
 ## Designing the warning pattern
 
-I intentionally designed the warning language to feel noticeable without appearing destructive or alarmist.
+The warning pattern was designed to interrupt passive confirmation behaviors without creating unnecessary alarm.
+
+Because enabling MFA could affect access across an institution, the messaging needed to slow administrators down long enough to evaluate the consequences of the action while still preserving trust and usability.
 
 The final warning copy read:
 
@@ -119,7 +130,7 @@ The messaging focused on clearly communicating risk without relying on alarmist 
 
 ## Refining the confirmation modal
 
-The confirmation modal needed to slow down a high-impact action without placing unrealistic responsibility on administrators.
+The confirmation modal was intentionally designed to create a moment of deliberate review before administrators applied a high-impact configuration change.
 
 Earlier drafts included language asking administrators to confirm that users could access their email accounts. I removed this phrasing because administrators may not realistically be able to guarantee this across an institution.
 
@@ -149,22 +160,27 @@ This version focused on communicating consequences clearly while avoiding blame-
 
 ## UX writing principles applied
 
-Throughout the workflow, I focused on:
+This work focused on improving decision-making clarity within a high-risk administrative workflow where unclear terminology could create operational consequences for both administrators and end users.
 
-- clear and consistent configuration language,
-- layered risk communication,
-- concise instructional copy,
-- and reducing ambiguity in high-impact administrative decisions.
+The writing approach emphasized:
+
+- explicit behavioral language over abstract system terminology,
+- layered risk communication for high-impact actions,
+- deliberate friction to support safer administrative decision-making,
+- predictable configuration outcomes,
+- and progressive disclosure to reduce cognitive overload.
 
 ---
 
 ## Outcome
 
-The final concept improved:
+The updated workflow supported clearer administrative decision-making by improving terminology, clarifying scope, and introducing more deliberate confirmation patterns around high-impact actions.
 
-- clarity of configuration options,
-- visibility of risk before changes were applied,
-- confirmation patterns for high-impact actions,
-- and overall consistency in enterprise UX writing.
+The updated workflow:
 
-This sample reflects my approach to simplifying complex administrative workflows, balancing security and usability, and designing UX copy around operational consequences rather than interface mechanics.
+- reduced ambiguity around user scope,
+- improved predictability of configuration outcomes,
+- clarified the consequences of enabling MFA,
+- and created a more supportive administrative experience for complex security workflows.
+
+This project reinforced the importance of treating UX writing as operational guidance within enterprise systems, particularly in workflows involving permissions, access, and account security.
