@@ -6,17 +6,28 @@ featured: true
 order: 2
 ---
 
-I consolidated and restructured a large, legacy help center during a platform migration, reducing nearly 6,000 English-language guides to 382 while improving clarity, consistency, and long-term maintainability.
+## At a glance
+
+| Category | Details |
+|---|---|
+| **Project** | Help center migration and consolidation |
+| **Role** | UX Writer |
+| **Focus** | Documentation consolidation, information architecture, content operations |
+| **Scope** | ~6,000 English-language help articles |
+| **Problem** | Severe duplication and inconsistent documentation made the help center difficult to navigate and maintain |
+| **Outcome** | Consolidated content into 382 maintainable guides with improved structure, consistency, and usability |
 
 ## Impact
 
-- Reduced and consolidated ~6,000 guides into 382 clear, non-duplicative articles.
+- Consolidated approximately 6,000 English-language help articles into 382 maintainable guides.
 
-- Improved navigation and reduced content noise across the help center.
+- Reduced duplication and content fragmentation across the help center.
 
-- Maintained strong user feedback, with 150–200 daily upvotes and a 2.5:1 positive sentiment ratio, indicating clearer and more useful guidance.
+- Improved navigation, findability, and overall content usability.
 
-- Created a more maintainable structure for ongoing documentation updates.
+- Maintained strong user feedback during the migration, averaging 150–200 daily upvotes with a 2.5:1 positive sentiment ratio.
+
+- Established a scalable structure for future documentation governance and updates.
 
 ## Overview
 
@@ -24,7 +35,7 @@ Over time, the help content for a large, global edtech platform had grown bloate
 
 ## The challenge
 
-Severe duplication and overlapping content created noise for users and made the help site difficult to navigate and maintain. Internally, the lack of a shared audit framework or tracking system meant writers were making isolated decisions, increasing the risk of inconsistent guidance, rework across teams, and a delayed launch. Without structure, the migration threatened both content quality and confidence in the timeline.
+The help center for a large global edtech platform had grown difficult to maintain, with thousands of duplicative or overlapping guides spread across product areas. Internally, the lack of a shared audit framework or tracking system meant writers were making isolated decisions, increasing the risk of inconsistent guidance, rework across teams, and a delayed launch. Without structure, the migration threatened both content quality and confidence in the timeline.
 
 The migration required balancing speed and consistency under a fixed launch date and making consolidation decisions without complete usage data for every guide.
 
@@ -32,9 +43,30 @@ The migration required balancing speed and consistency under a fixed launch date
 
 I approached the migration by establishing a clear, repeatable structure for auditing and consolidating content.
 
-- I started by auditing a subset of integration guidance, identifying duplication, gaps, and overlapping workflows. This informed a consistent approach to consolidation across product areas.
+- I began by auditing a subset of integration guidance to identify duplication, content gaps, and overlapping workflows. This established a repeatable framework for evaluating and consolidating content across product areas.
+
+<img 
+  src="/images/writing-samples/cm-02.png" 
+  alt="Flowchart used during a documentation audit to visualize help center structure, user roles, and overlapping workflow content prior to migration." 
+  class="sample-image" 
+/>
+
+<figcaption>
+  Information architecture flowchart created during the initial content audit to identify overlapping workflows, duplicated guidance, and consolidation opportunities across user roles and product areas.
+</figcaption>
 
 - To support this work, I created a centralized tracking system to document content status, ownership, and rewrite needs. This made it easier to manage scope, maintain consistency, and reduce rework as the migration progressed.
+
+<img 
+  src="/images/writing-samples/cm-01.png" 
+  alt="Spreadsheet used to track article audits, consolidation status, accessibility updates, and migration progress during a large help center restructuring project." 
+  class="sample-image" 
+/>
+
+<figcaption>
+  Migration tracking system used to manage article audits, consolidation status, ownership, and accessibility updates during the help center transition.
+</figcaption>
+
 
 - Rather than migrate content as-is, I rewrote and consolidated guides to remove duplication, simplify workflows, and improve usability.
 
@@ -50,3 +82,5 @@ I approached the migration by establishing a clear, repeatable structure for aud
 - With duplication removed and structure simplified, the help site became easier to navigate and significantly lighter to maintain.
 
 - Audit data provided clear visibility into progress and remaining work during the migration.
+
+The migration ultimately transformed the help center from a fragmented collection of legacy content into a more scalable, maintainable documentation system with clearer ownership, improved usability, and stronger operational visibility.
