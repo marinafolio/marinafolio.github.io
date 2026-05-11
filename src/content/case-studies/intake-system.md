@@ -6,11 +6,22 @@ featured: true
 order: 3
 ---
 
-I created a more structured intake process for UX writing requests, supported by clear documentation and lightweight tooling. This reduced interruptions and made work easier to track, prioritize, and complete.
+I created a structured intake workflow for UX writing requests using Slack, Jira, and supporting documentation. The process reduced interruptions, improved request visibility, and made work easier to track, prioritize, and complete.
+
+## At a glance
+
+| Category | Details |
+|---|---|
+| **Project** | UX writing intake workflow redesign |
+| **Role** | Senior UX Writer |
+| **Focus** | Workflow documentation, async collaboration, intake process design |
+| **Tools** | Slack, Jira |
+| **Problem** | Ad-hoc Slack requests created interruptions, inconsistent prioritization, and limited visibility into work status |
+| **Outcome** | Created a structured intake workflow that improved request visibility, reduced interruptions, and increased Jira adoption |
 
 ## Impact
 
-- 86+ hours saved annually per writer by reducing manual triage and follow-ups.
+- By reducing manual triage, repeated follow-ups, and Slack-based coordination, the workflow saved an estimated 86+ hours annually per writer.
 
 - Reduced Slack interruptions, enabling more focused work on complex tasks.
 
@@ -32,9 +43,19 @@ The solution needed to fit naturally into existing Slack behaviors while enforci
 
 I set out to design a lightweight intake system that reduced Slack friction without adding administrative overhead. It needed to be something the team would actually use.
 
-- I started by looking outside our team, studying IT and DevOps intake workflows and working with a DevOps engineer to scope a Slack-to-Jira automation that worked within our existing tools.
+- I researched existing IT and DevOps intake workflows and collaborated on a lightweight Slack-to-Jira automation that fit within our existing tooling.
 
 - From there, I mocked and refined the Slack form and bot behavior, balancing clarity for requesters with the structured information needed to route and complete requests efficiently.
+
+<img 
+  src="/images/writing-samples/is-01.png" 
+  alt="Structured Slack intake form used to collect UX writing requests, including request type, related guidance URLs, and supporting details before creating a Jira ticket." 
+  class="sample-image" 
+/>
+
+<figcaption>
+  Final Slack intake form used to standardize UX writing requests and route work into Jira through a more structured intake workflow.
+</figcaption>
 
 - Before launch, I tested the workflow with senior writers to pressure-test edge cases and make sure it held up in real scenarios, not just in theory.
 
@@ -48,4 +69,16 @@ I set out to design a lightweight intake system that reduced Slack friction with
 
 - Clear documentation and guidance improved team confidence with Jira.
 
+<img 
+  src="/images/writing-samples/is-02.png" 
+  alt="Internal Jira training guide showing step-by-step instructions for creating and managing tickets as part of a structured UX writing intake workflow." 
+  class="sample-image" 
+/>
+
+<figcaption>
+ Excerpt from a Jira onboarding playbook created to support consistent ticket creation, workflow visibility, and long-term process adoption across the team.
+</figcaption>
+
 - The structure continues to support consistent intake and clearer, more manageable workflows.
+
+The final workflow transformed intake from an interrupt-driven Slack process into a more structured, visible, and maintainable system that better supported focused work, predictable prioritization, and asynchronous collaboration.
