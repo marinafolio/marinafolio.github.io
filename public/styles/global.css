@@ -399,13 +399,13 @@ nav ul li a:hover {
 }
 
 .about-photo {
-float: right;
-width: 220px;
-height: 220px;
-object-fit: cover;
-margin: 0.5rem 0 2rem 2rem;
-border-radius: 50%;
-opacity: 0.97;
+  float: right;
+  width: 220px !important;
+  height: 220px !important;
+  object-fit: cover;
+  margin: 0.5rem 0 2rem 2rem;
+  border-radius: 50%;
+  opacity: 0.97;
 }
 
 .about p {
@@ -414,10 +414,16 @@ opacity: 0.97;
 
 @media (max-width: 800px) {
   .about-photo {
-    float: none;
-    display: block;
-    width: 180px;
-    margin: 0 auto 1.5rem;
+    float: none !important;
+    display: block !important;
+    width: 160px !important;
+    height: 160px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 2rem !important;
+    margin-top: 0 !important;
+    border-radius: 50%;
+    object-fit: cover;
   }
 }
 
