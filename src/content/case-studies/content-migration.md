@@ -6,6 +6,8 @@ featured: true
 order: 2
 ---
 
+I consolidated and restructured a large legacy help center during a platform migration, reducing nearly 6,000 English-language guides to 382 maintainable articles while improving clarity, consistency, and usability.
+
 ## At a glance
 
 | Category | Details |
