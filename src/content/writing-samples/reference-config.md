@@ -7,13 +7,11 @@ featured: false
 order: 4
 ---
 
-## Overview
+<div class="sample-note">
+This excerpt is from a configuration reference guide created to help library technicians configure third-party printing software across multiple locations. The documentation translated XML-based configuration values and system behaviors into structured, implementation-focused guidance designed to reduce setup errors and support consistent deployment.
+</div>
 
-This sample is from a configuration reference guide created to help technicians configure third-party printing software within a library environment.
-
-The guide translated raw configuration values and system behaviors into structured, implementation-focused documentation intended to reduce setup errors and support consistent deployment across locations.
-
-This excerpt focuses on documenting conditional system behavior and configuration outcomes in language technicians could scan quickly during implementation.
+<hr>
 
 ## Configuration example
 
@@ -53,12 +51,3 @@ Allows the printing system to use settings configured through the PC Reservation
 <div class="callout">
   <strong>Important:</strong> When integration is enabled, administrators must ensure that each required option is configured individually within the preference file.
 </div>
-
-## Focus areas
-
-This sample focused on:
-
-- translating technical configuration values into implementation guidance,
-- documenting conditional system behavior clearly,
-- improving scanability for technicians during setup,
-- and reducing ambiguity around configuration outcomes.

@@ -7,7 +7,11 @@ type: internal documentation
 order: 1
 ---
 
-<div class="sample-intro">This guide was created as part of a broader internal documentation system designed to help non-technical writers use HTML-based components in Zendesk. I focused on translating technical structure into clear, step-by-step instructions so writers could format and manage content without prior coding experience.</div>
+<div class="sample-note">
+This guide was created as part of a broader internal documentation system designed to help non-technical writers work with HTML-based components in Zendesk. The documentation translated implementation patterns into clear, step-by-step instructions so writers could create and manage structured content without prior coding experience.
+</div>
+
+<hr>
 
 <h1 class="sample-title">Creating tabbed content in Zendesk</h1>
 
@@ -78,11 +82,9 @@ Copy and paste the following code to create a two-tab layout. To add additional 
 &lt;/div&gt;
 </code></pre>
 
-6. Replace the placeholder text with your tab content.
+6. Replace the placeholder text with your tab content. 
 
-> For each new tab, you must add both:
-> - a tab title
-> - corresponding tab content
+<div class="callout">For each new tab, you must add both a tab title and corresponding tab content.</div>
 
 7. Repeat this process for each additional tab.
 

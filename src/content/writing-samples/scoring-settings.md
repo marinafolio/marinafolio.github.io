@@ -7,7 +7,11 @@ type: system documentation
 order: 3
 ---
 
-<div class="sample-intro">This excerpt is from a larger guide created for instructors who use a web application to digitally grade handwritten assignments. In this section, I focused on explaining configurable scoring workflows and how scoring settings, bounds, and adjustments behave before changes are applied.</div>
+<div class="sample-note">
+This excerpt is from a larger instructor guide for a web application used to digitally grade handwritten assignments. In this section, I focused on explaining how scoring methods, bounds, and score adjustments behave so instructors could configure grading workflows with greater clarity and predictability.
+</div>
+
+<hr>
 
 <h1 class="sample-title">Using the scoring settings</h1>
 
@@ -66,4 +70,4 @@ Both settings are enabled by default. You can disable them for situations such a
 
 3. Select the appropriate scoring options for your workflow.
 
-> Ceiling and Floor scoring bounds are enabled by default and can be changed at any time.
+<div class="callout">Ceiling and Floor scoring bounds are enabled by default and can be changed at any time.</div>

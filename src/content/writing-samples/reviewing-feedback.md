@@ -7,7 +7,7 @@ type: user guidance
 order: 1
 ---
 
-<div class="sample-intro">In the sample below, I created a guide to help students understand where to find instructor feedback and how to act on it. Because feedback appears in multiple places across the product, the goal was to bring those experiences together into a clear, structured flow that’s easy to follow.</div>
+<div class="sample-note">This guide was created to help students understand where to find instructor feedback and how to use it to improve their work. Because feedback appeared in multiple places across the product, the documentation needed to bring those experiences together into a clear, structured workflow that was easy to follow.</div>
 
 ---
 
