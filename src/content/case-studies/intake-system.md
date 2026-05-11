@@ -13,7 +13,7 @@ I created a structured intake workflow for UX writing requests using Slack, Jira
 | Category | Details |
 |---|---|
 | **Project** | UX writing intake workflow redesign |
-| **Role** | Senior UX Writer |
+| **Role** | UX Writer |
 | **Focus** | Workflow documentation, async collaboration, intake process design |
 | **Tools** | Slack, Jira |
 | **Problem** | Ad-hoc Slack requests created interruptions, inconsistent prioritization, and limited visibility into work status |
