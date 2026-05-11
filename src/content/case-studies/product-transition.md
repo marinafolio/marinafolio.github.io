@@ -8,6 +8,17 @@ order: 1
 
 I wrote 22 guides to support the launch of a newly rebuilt product, helping existing users transition from a legacy experience to an updated system. The guides covered administrator, instructor, and student workflows, providing clear, step-by-step instructions for completing key tasks.
 
+## At a glance
+
+| Category | Details |
+|---|---|
+| **Project** | Product transition documentation |
+| **Role** | UX Writer |
+| **Focus** | Role-based documentation, workflow guidance, content consistency |
+| **Scope** | 22 user guides across administrator, instructor, and student workflows |
+| **Problem** | Existing users needed clear guidance to transition from a legacy product experience to a newly rebuilt system |
+| **Outcome** | Created a structured, maintainable documentation set that improved clarity, consistency, and workflow adoption across user roles |
+
 ## Impact
 
 - Created 22 role-based guides covering administrator, instructor, and student workflows.
