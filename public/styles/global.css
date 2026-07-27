@@ -151,6 +151,13 @@ nav ul li a:hover {
   font-weight: 550;
   line-height:1.5em;
 }
+
+#sub-heading {
+  font-size:40px;
+  font-weight: 550;
+  line-height:1.5em;
+}
+
 .accent {
   color: var(--accent);
 }
