@@ -27,19 +27,6 @@ const sortedWritingSamples = writingSamples.sort(
   </div>
   <section class="portfolio">
     <div class="container">
-      <h2>Featured Case Studies</h2>
-        <div class="portfolio-container">
-          {
-            sortedCaseStudies.map((study) => (
-              <WorkTile
-                href={`/case-studies/${study.slug}`}
-                title={study.data.title}
-                description={study.data.description}
-                tag={study.data.tags?.[0]}
-              />
-            ))
-          }
-        </div>
       <h2>Featured Writing Samples</h2>
       <div class="portfolio-container sample">
           {
@@ -55,6 +42,19 @@ const sortedWritingSamples = writingSamples.sort(
             ))
           }
       </div>
+      <h2>Featured Case Studies</h2>
+        <div class="portfolio-container">
+          {
+            sortedCaseStudies.map((study) => (
+              <WorkTile
+                href={`/case-studies/${study.slug}`}
+                title={study.data.title}
+                description={study.data.description}
+                tag={study.data.tags?.[0]}
+              />
+            ))
+          }
+        </div>
     </div>
   </section>
 </Layout>
