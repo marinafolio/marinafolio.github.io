@@ -68,6 +68,4 @@ Both settings are enabled by default. You can disable them for situations such a
    - **Scoring Method** — choose between positive or negative scoring.
    - **Scoring Bounds** — enable or disable Ceiling and Floor limits.
 
-3. Select the appropriate scoring options for your workflow.
-
 <div class="callout">Ceiling and Floor scoring bounds are enabled by default and can be changed at any time.</div>
