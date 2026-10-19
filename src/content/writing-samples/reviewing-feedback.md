@@ -17,7 +17,11 @@ After your assignment is graded, your instructor’s feedback helps you understa
 
 ## Accessing your feedback
 
-To view your feedback, open your assignment and select the **similarity score** to open your graded submission. Then, select the **Feedback** tab at the top of your screen.
+To access your feedback:
+
+1. Open your assignment.
+2. Select the **similarity score** to open your graded submission. 
+3. Select the **Feedback** tab at the top of your screen.
 
 Your instructor’s feedback appears in different areas of your submission. Each type of feedback highlights something different, from specific edits to overall comments. Reviewing all of these areas will give you a complete picture of your work and how to improve it.
 
@@ -100,9 +104,11 @@ Select any margin card to highlight the part of your submission that the feedbac
 
 Feedback with a pin icon indicates that it has been prioritized by your instructor. You can also view pinned feedback in the Summary tab.
 
-Some feedback may be linked to a specific criterion in your rubric. This is indicated by a link icon next to the criterion name <img 
+Some feedback may be linked to a specific criterion in your rubric. This is indicated by a link icon next to the criterion name 
+
+<img 
   src="/images/writing-samples/rf-08.png" 
-  alt="Summary comment in feedback sidebar of a submission." 
+  alt="Link indicating feedback associated with a rubric criterion." 
   class="inline-image" 
 />.
 
