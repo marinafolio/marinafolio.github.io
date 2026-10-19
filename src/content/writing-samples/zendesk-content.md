@@ -88,4 +88,4 @@ Copy and paste the following code to create a two-tab layout. To add additional 
 
 7. Repeat this process for each additional tab.
 
-8. When finished, select **Apply**, then save and preview the article.
+8. Select **Apply**, then save and preview the article. Verify that each tab displays the correct content when selected.
