@@ -1,46 +1,31 @@
-# Astro Starter Kit: Basics
+# Technical Writing Portfolio
 
-```sh
-npm create astro@latest -- --template basics
-```
+The source code for my technical writing portfolio, built with [Astro](https://astro.build/) and hosted on GitHub Pages.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+**Live website:** [marinafolio.github.io](https://marinafolio.github.io/)
 
-## 🚀 Project Structure
+## About the Portfolio
 
-Inside of your Astro project, you'll see the following folders and files:
+I'm a Senior UX Writer at Turnitin with experience in software documentation, technical support, knowledge base management, and information architecture.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+This portfolio showcases selected examples of my technical writing work, including:
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+- **Writing samples:** Excerpts from software user guides, configuration documentation, and internal technical instructions.
+- **Case studies:** Documentation projects involving help center migrations, product transitions, user guidance, and internal workflows.
 
-## 🧞 Commands
+The portfolio focuses on practical documentation that helps people understand software, complete tasks, and troubleshoot problems independently.
 
-All commands are run from the root of the project, from a terminal:
+## Built With
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- **Astro** — Static site framework
+- **HTML and CSS** — Page structure and styling
+- **Markdown** — Writing sample and case study content
+- **GitHub Pages** — Website hosting
+- **Git and GitHub** — Version control and source management
 
-## 👀 Want to learn more?
+Writing samples and case studies are organized using Astro content collections, with metadata controlling their display order.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Contact
+
+- [Portfolio](https://marinafolio.github.io/)
+- [LinkedIn](https://www.linkedin.com/in/marinarose92/)
